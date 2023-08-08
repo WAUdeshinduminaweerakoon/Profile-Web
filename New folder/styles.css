@@ -209,6 +209,17 @@ background-color: #111;
     position: absolute;
     right: 1rem;
 }
+.section-three-edu-body{max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.section-three-edu-body-content{
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+   
+}
 
 
 .section-four{
