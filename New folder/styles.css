@@ -173,13 +173,28 @@ background-color: #111;
     margin-top: 2vh;
    
 }
-
+  
 
 
 .section-three{
     background:linear-gradient(rgb(127, 8, 218)  10%, 40%, blue 80%);
     height: 100vh;
 } 
+.section-three .section-three-edu{
+    width: 90vw;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+.section-three-edu-item{
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+
+}
+
+
 .section-four{
     background:linear-gradient(blue  10%, 40%, black 90%);
     height: 100vh;
