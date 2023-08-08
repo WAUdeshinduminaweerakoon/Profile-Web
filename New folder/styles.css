@@ -186,12 +186,28 @@ background-color: #111;
     margin: 2rem auto;
 }
 .section-three-edu-item{
-    background-color: #fff;
-    color: #111;
+    /* background-color: #fff; */
+    color: #e98b8b;
     margin: 1rem 0;
     border-radius: 0.5rem;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 
+}
+.section-three-edu-header{
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.section-three-edu-header::after{
+    content: "\002B"; 
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
 }
 
 
