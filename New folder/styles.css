@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +13,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     /* background-color: #1378de; */
     color: #fff;
+}
+h1{
+    text-align: center;
+    font-weight:600;
+    font-size: 8vh;
+    font-family: 'Poppins';
 }
 .heard{
     font-size: 2vw;
@@ -51,17 +59,123 @@ background-color: #111;
 } 
 .my-home{
     width: 90vw;
-    height: 80vh;
+    height: 70vh;
     margin: 5vh;
     padding-top:1vh ;
-    background-color: rgb(57, 15, 173);
-    box-shadow: 1vh 1vw;
+    background:linear-gradient(rgb(233, 41, 24)  10%, 40%, rgb(3, 3, 73) 80%);
+    /* box-shadow: 1vh 1vw; */
+    
+    box-shadow: rgba(24, 8, 18, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
     align-items: center;
+    /* background-image: url(./img/background\ 1.jpeg) */
 }
+.my-home h2{
+    text-align:left;
+    font-weight:500;
+    font-size: 5vh;
+    font-family: Georgia, serif;
+    margin-top: 2vh;
+    font-variation-settings: "wght" 400;
+}
+.my-home h2:hover {
+    font-variation-settings: "wght" 600; 
+    letter-spacing: 0.5vw;
+  }
+.my-home h4{
+    text-align:left;
+    font-weight:500;
+    font-size: 3vh;
+    font-family: Georgia, serif;
+    margin-top: 1vh;
+    
+
+}
+.my-home p{
+    text-align:left;
+    font-weight:500;
+    font-size: 2vh;
+    font-family: Georgia, serif;
+    margin-top: 1vh;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.my-poto{
+    text-align: center;
+}
+.my-poto img{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 40%;
+    box-shadow: 1vh;
+    margin-left: 2vh;
+    
+}
+
 .section-two{
     background:linear-gradient(blue  20%, 40%, rgb(127, 8, 218) 80%);
     height: 100vh;
 } 
+.section-two-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left: 2vh;
+
+}
+.section-two-grid .about-poto img{
+    --s: 2vh;  /* size of the frame */
+    --b: 1.5vh;   /* border thickness */
+    --w: 30vw; /* width of the image */
+    --c: #721ec1;
+    
+    width: var(--w);
+    aspect-ratio: 1;
+    object-fit: cover;
+    padding: calc(2*var(--s));
+    --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
+    background:
+      linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+      linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+    outline: calc(var(--w)/2) solid #0009;
+    outline-offset: calc(var(--w)/-2 - 2*var(--s));
+    transition: .4s;
+    cursor: pointer;
+}
+.section-two-grid .about-poto img:hover{
+
+    outline: var(--b) solid var(--c);
+    outline-offset: calc(var(--s)/-2);
+     --_i: calc(100% - 2*var(--s));
+}
+.section-two-grid .about-text{
+    font-size: 3vh;
+    margin: 2vh;
+    background-color: #547be7;
+    color: #08ca49;
+    padding: 2vh;
+
+}
+.section-two-grid .about-text h3{
+    text-align:center;
+    font-family: Georgia, serif;
+    margin-top: 2vh;
+   
+}
+
+
+
 .section-three{
     background:linear-gradient(rgb(127, 8, 218)  10%, 40%, blue 80%);
     height: 100vh;
@@ -74,12 +188,10 @@ background-color: #111;
 .content{
     
 }
-h1{
-    text-align: center;
-    font-weight:600;
-    font-size: 8vh;
-    font-family: Georgia, serif;
-}
+
+
+
+
 
 
 
