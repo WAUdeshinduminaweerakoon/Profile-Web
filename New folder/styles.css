@@ -35,7 +35,7 @@ h1{
   
 .link {
     float: left;
-    width: 25%;
+    width: 20%;
     background-color: #c90f0f;
 
   }
@@ -240,6 +240,11 @@ background-color: #111;
     background:linear-gradient(blue  10%, 40%, black 90%);
     height: 100vh;
 } 
+
+.section-five{
+    background:linear-gradient(rgb(127, 8, 218)  10%, 40%, blue 80%);
+    height: 100vh;
+}
  
 .content{
     
