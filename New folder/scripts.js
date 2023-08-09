@@ -12,7 +12,7 @@ function myFunction() {
   }
 }
 
-const accordionItemHeaders = document.querySelectorAll(".section-three-edu-header");
+const accordionItemHeaders = document.querySelectorAll(".section-three-eduAndWork-header");
 
 accordionItemHeaders.forEach(accordionItemHeader => {
   accordionItemHeader.addEventListener("click", event => {

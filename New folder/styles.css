@@ -62,10 +62,10 @@ background-color: #111;
     height: 70vh;
     margin: 5vh;
     padding-top:1vh ;
-    background:linear-gradient(rgb(233, 41, 24)  10%, 40%, rgb(3, 3, 73) 80%);
+    /* background:linear-gradient(rgb(233, 41, 24)  10%, 40%, rgb(3, 3, 73) 80%); */
     /* box-shadow: 1vh 1vw; */
-    
-    box-shadow: rgba(24, 8, 18, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* box-shadow: rgba(24, 8, 18, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
     align-items: center;
     /* background-image: url(./img/background\ 1.jpeg) */
 }
@@ -113,6 +113,7 @@ background-color: #111;
 }
 .my-poto{
     text-align: center;
+    
 }
 .my-poto img{
     width: 20vw;
@@ -160,32 +161,45 @@ background-color: #111;
      --_i: calc(100% - 2*var(--s));
 }
 .section-two-grid .about-text{
-    font-size: 3vh;
-    margin: 2vh;
-    background-color: #547be7;
+    font-size: 2.5vh;
+    margin: 3vh;
+    /* background-color: #547be7; */
     color: #08ca49;
     padding: 2vh;
+    height: 50vh;
 
 }
 .section-two-grid .about-text h3{
     text-align:center;
     font-family: Georgia, serif;
     margin-top: 2vh;
+    
    
 }
-  
-
 
 .section-three{
     background:linear-gradient(rgb(127, 8, 218)  10%, 40%, blue 80%);
     height: 100vh;
-} 
-.section-three .section-three-edu{
+}
+
+.qualifications{
+    width: 90vw;
+    height: 90vh;
+    margin-left:5vw ;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+   
+}
+.education-my ,.work-experience-my{
+    margin-top: 10vh;
+    /* background-color: #08ca49; */
+
+}
+.section-three .section-three-eduAndWork{
     width: 90vw;
     max-width: 1000px;
     margin: 2rem auto;
 }
-.section-three-edu-item{
+.section-three-eduAndWork-item{
     /* background-color: #fff; */
     color: #e98b8b;
     margin: 1rem 0;
@@ -193,7 +207,7 @@ background-color: #111;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 
 }
-.section-three-edu-header{
+.section-three-eduAndWork-header{
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
@@ -203,17 +217,17 @@ background-color: #111;
     position: relative;
     cursor: pointer;
 }
-.section-three-edu-header::after{
+.section-three-eduAndWork-header::after{
     content: "\002B"; 
     font-size: 2rem;
     position: absolute;
     right: 1rem;
 }
-.section-three-edu-body{max-height: 0;
+.section-three-eduAndWork-body{max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-.section-three-edu-body-content{
+.section-three-eduAndWork-body-content{
     padding: 1rem;
     line-height: 1.5rem;
     border-top: 1px solid;
