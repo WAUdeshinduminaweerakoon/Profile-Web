@@ -53,7 +53,7 @@ h1{
 background-color: #111;
 }
 .section-one{
-    background:linear-gradient(black  10%, 40%, blue 80%);
+    background:linear-gradient(rgb(0, 0, 0)  10%, 40%, blue 80%);
     height: 90vh;
     padding-top:10vh ;
 } 
@@ -222,8 +222,10 @@ background-color: #111;
     font-size: 2rem;
     position: absolute;
     right: 1rem;
+
 }
-.section-three-eduAndWork-body{max-height: 0;
+.section-three-eduAndWork-body{
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
@@ -237,12 +239,118 @@ background-color: #111;
 
 
 .section-four{
-    background:linear-gradient(blue  10%, 40%, black 90%);
+    background:linear-gradient(blue  20%, 40%, rgb(109, 5, 116) 80%);
     height: 100vh;
 } 
+.project{
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* margin-top: 10vh; */
+    margin-left: 5vw;
+
+}
+.project-my{
+  /* font-family: monospace;
+  font-size: 20px;
+  display: flex;
+   align-items: center;
+  justify-content: center;  
+  height: 10vh;
+  margin:0;
+  padding: 0;
+  width: 100%; */
+    width: 30vw;
+    height: 30vh;
+    margin: 5vh;
+    padding-top:1vh ;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+}
+.project-my h3{
+    text-align: center;
+}
+
+
+  #project-my-toggle{
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+  }
+  
+  #project-my-toggle:checked ~ dialog {
+    display: block;
+  }
+  
+  label{
+    background: rgb(223, 99, 21);
+    color: white;
+    padding: 1.5vh,1.5vw;
+    border-radius: 4px;
+   
+    text-align: center;
+
+  }
+  label[for="project-my-toggle"] {
+    display: block;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  dialog label[for="project-my-toggle"] {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  @keyframes appear {
+    0%{
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
+  dialog{
+    animation: appear 350ms ease-in 1;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 24vw;
+  
+  }
+
+  .project-poto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%; /* Adjust the height as needed */
+    /* background-color: #f0f0f0; */
+  }
+  
+  /* Style for the image inside .project-poto */
+  .project-poto img {
+    width: 100%; /* Set the width you prefer */
+    height: 100%; /* Set the height you prefer */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  padding: 2px;}
+
+
+
+
+
+
+
 
 .section-five{
-    background:linear-gradient(rgb(127, 8, 218)  10%, 40%, blue 80%);
+    background:linear-gradient(rgb(109, 5, 116)  10%, 40%, blue 80%);
     height: 100vh;
 }
  
