@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -375,20 +376,28 @@ background-color: #111;
 .content-my{
     display: grid;
     grid-template-columns: auto;
-    padding: 10px;
+  
+    padding-left: 20px;
     
     
 }
 .contact-my-con{
     display: grid;
-    grid-template-columns: auto,auto;
-
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto; /* You can adjust this based on your content */
+     gap: 20px;
+     font-size: 25px;
     height: 10vh;
     margin: 5%;
     /* background-color: #111; */
     /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
-
 }
+.logo{
+    text-align: center;
+}
+
+
+
 
 .footer{
     height:10vh ;
