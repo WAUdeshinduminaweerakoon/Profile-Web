@@ -12,7 +12,7 @@ html {
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    background:linear-gradient(rgb(133, 15, 224)  10%, 40%, rgb(109, 5, 116) 80%);
+    background:linear-gradient(#9999ff  10%, 40%, #d966ff 80%);
     /* background-color: #1378de; */
     
 }
@@ -38,7 +38,7 @@ h1{
 .link {
     float: left;
     width: 20%;
-    background-color: #c90f0f;
+    background-color: #ec6ad5;
 
   }
   
@@ -52,10 +52,10 @@ h1{
 }
   
 .link a:hover {
-background-color: #111;
+/* background-color: #111; */
 }
 .section-one{
-    background:linear-gradient(rgb(0, 0, 0)  10%, 40%, blue 80%);
+    background: linear-gradient(#d966ff  10%, 40%,#9999ff 80%); */
     height: 90vh;
     padding-top:10vh ;
 } 
@@ -128,7 +128,7 @@ background-color: #111;
 }
 
 .section-two{
-    background:linear-gradient(blue  20%, 40%, rgb(127, 8, 218) 80%);
+    background:linear-gradient(#9999ff 20%, 40%, #d966ff 80%);
     height: 100vh;
 } 
 .section-two-grid{
@@ -167,7 +167,7 @@ background-color: #111;
     font-size: 2.5vh;
     margin: 3vh;
     /* background-color: #547be7; */
-    color: #08ca49;
+    color: #4646e9;
     padding: 2vh;
     height: 50vh;
 
@@ -181,7 +181,7 @@ background-color: #111;
 }
 
 .section-three{
-    background:linear-gradient(rgb(127, 8, 218)  10%, 40%, blue 80%);
+    background:linear-gradient(#d966ff  10%, 40%,#9999ff 80%);
     height: 100vh;
 }
 
@@ -242,7 +242,7 @@ background-color: #111;
 
 
 .section-four{
-    background:linear-gradient(blue  20%, 40%, rgb(109, 5, 116) 80%);
+    background:linear-gradient(#9999ff  20%, 40%, #d966ff 80%);
     height: 100vh;
 } 
 .project{
@@ -361,7 +361,7 @@ background-color: #111;
 
 
 .section-five{
-    background:linear-gradient(rgb(109, 5, 116)  10%, 40%, blue 80%);
+    background:linear-gradient(#d966ff  10%, 40%, #9999ff 80%);
     height: 100vh;
     margin-top: 20vh;
     
@@ -401,8 +401,14 @@ background-color: #111;
 
 .footer{
     height:10vh ;
-    background-color: #000;
+    background-color: #9260ef;
+    text-align: center;
+    padding: 6px;
 
+
+}
+.footer-my{
+    margin: ;
 }
 
 
