@@ -336,7 +336,15 @@ h1{
     width: 76vw;
     height: 70vh;
     background-color: #721ec1;
-  }
+    display: grid;
+    grid-template-columns: auto;
+}
+.dialog-box-project{
+    height: auto;
+}
+.dialog-box-project-gitlink{
+    text-align: center;
+}
 
   .project-poto {
     display: flex;
