@@ -274,14 +274,23 @@ h1{
 }
 
 
-  #project-my-toggle{
+  #project-my-toggle1,#project-my-toggle2,#project-my-toggle3,#project-my-toggle4{
     visibility: hidden;
     opacity: 0;
     position: relative;
     z-index: -1;
   }
   
-  #project-my-toggle:checked ~ dialog {
+  #project-my-toggle1:checked ~ dialog {
+    display: block;
+  }
+  #project-my-toggle2:checked ~ dialog {
+    display: block;
+  }
+  #project-my-toggle3:checked ~ dialog {
+    display: block;
+  }
+  #project-my-toggle4:checked ~ dialog {
     display: block;
   }
   
@@ -294,7 +303,7 @@ h1{
     text-align: center;
 
   }
-  label[for="project-my-toggle"] {
+  label[for="project-my-toggle1"],label[for="project-my-toggle2"],label[for="project-my-toggle3"],label[for="project-my-toggle4"] {
     display: block;
     text-align: center;
     background-color: #3498db;
@@ -303,7 +312,7 @@ h1{
     cursor: pointer;
     border-radius: 5px;
   }
-  dialog label[for="project-my-toggle"] {
+  dialog label[for="project-my-toggle1"],dialog label[for="project-my-toggle2"],dialog label[for="project-my-toggle3"],dialog label[for="project-my-toggle4"] {
     position: absolute;
     bottom: 5px;
     left: 50%;
@@ -313,7 +322,7 @@ h1{
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
-  }
+  } 
   
   @keyframes appear {
     0%{
