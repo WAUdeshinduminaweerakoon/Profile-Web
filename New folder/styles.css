@@ -12,9 +12,8 @@ html {
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    background:linear-gradient(#9999ff  10%, 40%, #d966ff 80%);
-    /* background-color: #1378de; */
-    
+    background:linear-gradient(#90e490  20%, 40%, #99ffff  80%);
+    /* background-color:#99ffff; */  
 }
 h1{
     text-align: center;
@@ -26,22 +25,20 @@ h1{
     font-size: 2vw;
     color: #000;
     text-align: center;
-    height: 11vh;
-    
+    /* height: 11vh; */   
 }
 .nav-bar-link{
      position: fixed;
      width: 100%;
-     height: 10vh;
+     /* height: 10vh; */
   }
   
 .link {
     float: left;
     width: 20%;
-    background-color: #de6bc9;
+    background-color: #6a2ae1;
     padding: 1vh;
-
-  }
+}
   
 .link a {
     display: block;
@@ -56,15 +53,15 @@ h1{
 /* background-color: #111; */
 }
 .section-one{
-    background: linear-gradient(#d966ff  10%, 40%,#9999ff 80%);
-    height : 90vh;
-    padding-top:10vh ;
+    background: linear-gradient(#90e490   10%, 40%,#9999ff 80%);
+    /* height : 90vh; */
+    padding-top:20vh ;
 } 
 .my-home{
     width: 90vw;
-    height: 70vh;
-    margin: 5vh;
-    margin-left: 2vw;
+    /* height: 70vh; */
+    padding: 10vh;
+    margin-left: 3ch;
     padding-top:1vh ;
     /* background:linear-gradient(rgb(233, 41, 24)  10%, 40%, rgb(3, 3, 73) 80%); */
     /* box-shadow: 1vh 1vw; */
@@ -94,40 +91,35 @@ h1{
     font-family: Georgia, serif;
     margin-top: 1vh;
     
-    
-
 }
 .my-home h3{
     text-align:center;
     font-weight:500;
-    font-size: 3vh;
+    font-size: 5vh;
     font-family: Georgia, serif;
     margin-top: 1vh;
     margin-left:5vw ;
-
-
 }
 .my-home p{
     text-align:left;
     font-weight:500;
     font-size: 3vh;
     font-family: Georgia, serif;
-    margin-top: 1vh;
+    margin: 8vh;
     margin-left:5vw ;
-
 }
 .fa {
     padding: 2vh;
     font-size: 3vh;
-    width: 100vh;
+    /* width: 100vh; */
     text-align: center;
     text-decoration: none;
-  }
+}
 
 .grid{
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 2vh;
+    grid-template-columns: auto auto;
+    padding: 3vh;
 }
 .my-poto{
     text-align: center;
@@ -135,16 +127,16 @@ h1{
 }
 .my-poto img{
     width: 20vw;
-    height: 30vh;
     border-radius: 40%;
     box-shadow: 1vh;
-    margin-left: 2vh;
+    margin : 6vh;
     
 }
 
 .section-two{
-    background:linear-gradient(#9999ff 20%, 40%, #d966ff 80%);
-    height: 100vh;
+    /* background-color: #90e490; */
+    background:linear-gradient(#9999ff 20%, 40%, #90e490 80%);
+    /* height: 100vh; */
 } 
 .section-two-grid{
     display: grid;
@@ -191,26 +183,24 @@ h1{
     color: #2c2c5f;
     padding: 2vh;
     
-
 }
 .section-two-grid .about-text h3{
     text-align:center;
     font-family: Georgia, serif;
     margin-top: 2vh;
-    
-   
+      
 }
 
 .section-three{
-    background:linear-gradient(#d966ff  10%, 40%,#9999ff 80%);
-    height: 110vh;
+    background:linear-gradient(#90e490  10%, 40%,#99ffff 80%);
+    /* height: 110vh; */
 }
 
 .qualifications{
     width: 90vw;
-    height: 100vh;
+    /* height: 110vh; */
     margin-left:5vw ;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
 
 }
 .education-my ,.work-experience-my{
@@ -232,6 +222,8 @@ h1{
 
 }
 .section-three-eduAndWork-header{
+    display: grid;
+    grid-template-columns: 60% 40%;
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
@@ -260,8 +252,8 @@ h1{
    
 }
 .section-four{
-    background:linear-gradient(#9999ff  20%, 40%, #d966ff 80%);
-    height: 100vh;
+    background:linear-gradient(#99ffff   20%, 40%, #90e490  80%);
+    /* height: 100vh; */
 } 
 .project{
     display: grid;
@@ -281,8 +273,8 @@ h1{
   padding: 0;
   width: 100%; */
     width: 30vw;
-    height: 30vh;
-    margin: 5vh;
+    /* height: 30vh; */
+    margin: 8vh;
     padding-top:1vh ;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 
@@ -316,9 +308,7 @@ h1{
     color: white;
     padding: 1.5vh,1.5vw;
     border-radius: 2vh;
-   
     text-align: center;
-
   }
   label[for="project-my-toggle1"],label[for="project-my-toggle2"],label[for="project-my-toggle3"],label[for="project-my-toggle4"] {
     display: block;
@@ -375,46 +365,44 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%; /* Adjust the height as needed */
+    height: 70%; /* Adjust the height as needed */
     /* background-color: #f0f0f0; */
   }
   
   .project-poto img {
-    width: 100%; /* Set the width you prefer */
-    height: 100%; /* Set the height you prefer */
+    width: 80%; /* Set the width you prefer */
+    height: 80%; /* Set the height you prefer */
     object-fit: cover; /* Maintain aspect ratio and cover container */
   padding: 1vh;
 }
 
 .section-five{
-    background:linear-gradient(#d966ff  10%, 40%, #9999ff 80%);
-    height: 100vh;
-    margin-top: 20vh;
+    background:linear-gradient(#90e490 10%, 40%, #9999ff 80%);
+    /* height: 100vh; */
+    /* margin-top: vh; */
     
 }
 .section-five-con{
     width: 90vw;
-    height: 90vh;
+    padding: 6vh;
+    /* height: 90vh; */
     margin-left:5vw ;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
    }
- 
 .content-my{
     display: grid;
     grid-template-columns: auto;
-  
-    padding-left: 5vh;
-    
-    
+    padding-left: 5vh;   
 }
 .contact-my-con{
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: auto; /* You can adjust this based on your content */
      gap: 4vh;
-     font-size: 3vh;
-    height: 10vh;
-    margin: 5%;
+     font-size: 4vh;
+    /* height: 10vh; */
+    margin-top: 20vh;
+    
     /* background-color: #111; */
     /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
 }
@@ -423,15 +411,14 @@ h1{
 }
 
 .footer{
-    height:10vh ;
+    /* height:10vh ; */
     background-color: #9260ef;
     text-align: center;
     padding: 2vh;
-
-
 }
 .footer-my{
     margin: auto;
+    padding: 2vh;
 }
  
 .sticky {
@@ -455,681 +442,5 @@ h1{
 
   }
   @media only screen and (max-width: 600px){
-    
-
-    
-
-.nav-bar-link{
-     position: fixed;
-     width: 100%;
-     height: 8vh;
-  }
-  
-.link {
-    float: left;
-    width: 20%;
-    background-color: #de6bc9;
-    padding: 3vh;
 
   }
-  
-.link a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 3vh 2.5vw;
-    text-decoration: none;
-
-}
-  
-.link a:hover {
-
-}
-.section-one{
-    background: linear-gradient(#d966ff  10%, 40%,#9999ff 80%);
-    height : 90vh;
-    padding-top:10vh ;
-} 
-.my-home{
-    width: 90vw;
-    height: 70vh;
-    margin: 5vh;
-    margin-left: 2vw;
-    padding-top:1vh ;
-    /* background:linear-gradient(rgb(233, 41, 24)  10%, 40%, rgb(3, 3, 73) 80%); */
-    /* box-shadow: 1vh 1vw; */
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    /* box-shadow: rgba(24, 8, 18, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
-    align-items: center;
-    /* background-image: url(./img/background\ 1.jpeg) */
-}
-.my-home h2{
-
-    text-align:center;
-    font-weight:500;
-    font-size: 6vh;
-    font-family: Georgia, serif;
-    margin-top: 2vh;
-    margin-left: 3vw;
-    font-variation-settings: "wght" 400;
-}
-.my-home h2:hover {
-    font-variation-settings: "wght" 600; 
-    letter-spacing: 0.5vw;
-  }
-.my-home h4{
-    text-align:center;
-    font-weight:500;
-    font-size: 4vh;
-    font-family: Georgia, serif;
-    margin-top: 1vh;
-    
-    
-
-}
-.my-home h3{
-    text-align:center;
-    font-weight:500;
-    font-size: 3vh;
-    font-family: Georgia, serif;
-    margin-top: 1vh;
-    margin-left:5vw ;
-
-
-}
-.my-home p{
-    text-align:left;
-    font-weight:500;
-    font-size: 3vh;
-    font-family: Georgia, serif;
-    margin-top: 1vh;
-    margin-left:5vw ;
-
-}
-.fa {
-    padding: 2vh;
-    font-size: 3vh;
-    width: 100vh;
-    text-align: center;
-    text-decoration: none;
-  }
-
-.grid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 2vh;
-}
-.my-poto{
-    text-align: center;
-    
-}
-.my-poto img{
-    width: 20vw;
-    height: 30vh;
-    border-radius: 40%;
-    box-shadow: 1vh;
-    margin-left: 2vh;
-    
-}
-
-.section-two{
-    background:linear-gradient(#9999ff 20%, 40%, #d966ff 80%);
-    height: 100vh;
-} 
-.section-two-grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 1vh;
-    margin-left: 2vh;
-
-}
-.section-two-grid .about-poto img{
-    --s: 2vh;  /* size of the frame */
-    --b: 1.5vh;   /* border thickness */
-    --w: 30vw; /* width of the image */
-    --c: #721ec1;
-    
-    width: var(--w);
-    aspect-ratio: 1;
-    object-fit: cover;
-    padding: calc(2*var(--s));
-    --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
-    background:
-      linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
-      linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
-    outline: calc(var(--w)/2) solid #0009;
-    outline-offset: calc(var(--w)/-2 - 2*var(--s));
-    transition: .4s;
-    cursor: pointer;
-}
-.section-two-grid .about-poto img:hover{
-
-    outline: var(--b) solid var(--c);
-    outline-offset: calc(var(--s)/-2);
-     --_i: calc(100% - 2*var(--s));
-}
-.section-two-grid .about-text h3{
-    font-size: 3.5vh;
-    font: weight 300;
-
-}
-.section-two-grid .about-text {
-    font-size: 2.5vh;
-    font: weight 300;
-    /* margin: 3vh; */
-    /* background-color: #547be7; */
-    color: #2c2c5f;
-    padding: 2vh;
-    
-
-}
-.section-two-grid .about-text h3{
-    text-align:center;
-    font-family: Georgia, serif;
-    margin-top: 2vh;
-    
-   
-}
-
-.section-three{
-    background:linear-gradient(#d966ff  10%, 40%,#9999ff 80%);
-    height: 110vh;
-}
-
-.qualifications{
-    width: 90vw;
-    height: 100vh;
-    margin-left:5vw ;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-
-}
-.education-my ,.work-experience-my{
-    margin-top: 5vh;
-    /* background-color: #08ca49; */
-
-}
-.section-three .section-three-eduAndWork{
-    width: 90vw;
-    max-width: 1000vw;
-    margin: 2rem auto;
-}
-.section-three-eduAndWork-item{
-    /* background-color: #fff; */
-    color: #0a0909;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
-
-}
-.section-three-eduAndWork-header{
-    padding: 0.5rem 3rem 0.5rem 1rem;
-    min-height: 3.5rem;
-    line-height: 1.25rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-.section-three-eduAndWork-header::after{
-    content: "\002B"; 
-    font-size: 2rem;
-    padding-left: 50vw;
-    right: 1rem;
-
-}
-.section-three-eduAndWork-body{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-.section-three-eduAndWork-body-content{
-    padding: 1rem;
-    line-height: 1.5rem;
-    border-top: 1px solid;
-    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
-   
-}
-.section-four{
-    background:linear-gradient(#9999ff  20%, 40%, #d966ff 80%);
-    height: 100vh;
-} 
-.project{
-    display: grid;
-    grid-template-columns: auto auto ;
-    /* margin-top: 10vh; */
-    margin-left: 5vw;
-
-}
-.project-my{
-  /* font-family: monospace;
-  font-size: 20px;
-  display: flex;
-   align-items: center;
-  justify-content: center;  
-  height: 10vh;
-  margin:0;
-  padding: 0;
-  width: 100%; */
-    width: 30vw;
-    height: 30vh;
-    margin: 5vh;
-    padding-top:1vh ;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-
-}
-.project-my h3{
-    text-align: center;
-}
-
-  #project-my-toggle1,#project-my-toggle2,#project-my-toggle3,#project-my-toggle4{
-    visibility: hidden;
-    opacity: 0;
-    position: relative;
-    z-index: -1;
-  }
-  
-  #project-my-toggle1:checked ~ dialog {
-    display: block;
-  }
-  #project-my-toggle2:checked ~ dialog {
-    display: block;
-  }
-  #project-my-toggle3:checked ~ dialog {
-    display: block;
-  }
-  #project-my-toggle4:checked ~ dialog {
-    display: block;
-  }
-  
-  label{
-    background: rgb(223, 99, 21);
-    color: white;
-    padding: 1.5vh,1.5vw;
-    border-radius: 2vh;
-   
-    text-align: center;
-
-  }
-  label[for="project-my-toggle1"],label[for="project-my-toggle2"],label[for="project-my-toggle3"],label[for="project-my-toggle4"] {
-    display: block;
-    text-align: center;
-    background-color: #3498db;
-    color: white;
-    padding: 3vh;
-    cursor: pointer;
-    border-radius: 2vh;
-  }
-  dialog label[for="project-my-toggle1"],dialog label[for="project-my-toggle2"],dialog label[for="project-my-toggle3"],dialog label[for="project-my-toggle4"] {
-    position: absolute;
-    bottom: 2vh;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #e74c3c;
-    color: white;
-    padding: 2vh 4vw;
-    cursor: pointer;
-    border-radius: 1vh;
-  } 
-  
-  @keyframes appear {
-    0%{
-      opacity: 0;
-      transform: translateY(-2vh);
-    }
-  }
-  
-  dialog{
-    animation: appear 350ms ease-in 1;
-    width: 80vw;
-    height: 80vh;
-    margin-left: 6vw;
-  
-  }
-  dialog .dialog-box{
-    align-items: center;
-    margin-top: 3vh;
-    margin-left: 2vw;
-    width: 76vw;
-    height: 70vh;
-    background-color: #721ec1;
-    display: grid;
-    grid-template-columns: auto;
-}
-.dialog-box-project{
-    height: auto;
-}
-.dialog-box-project-gitlink{
-    text-align: center;
-}
-  .project-poto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80%; /* Adjust the height as needed */
-    /* background-color: #f0f0f0; */
-  }
-  
-  .project-poto img {
-    width: 100%; /* Set the width you prefer */
-    height: 100%; /* Set the height you prefer */
-    object-fit: cover; /* Maintain aspect ratio and cover container */
-  padding: 1vh;
-}
-
-.section-five{
-    background:linear-gradient(#d966ff  10%, 40%, #9999ff 80%);
-    height: 100vh;
-    margin-top: 20vh;
-    
-}
-.section-five-con{
-    width: 90vw;
-    height: 90vh;
-    margin-left:5vw ;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-   }
- 
-.content-my{
-    display: grid;
-    grid-template-columns: auto;
-  
-    padding-left: 5vh;
-    
-    
-}
-.contact-my-con{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: auto; /* You can adjust this based on your content */
-     gap: 4vh;
-     font-size: 3vh;
-    height: 10vh;
-    margin: 5%;
-    /* background-color: #111; */
-    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
-}
-.logo{
-    text-align: center;
-}
-
-.footer{
-    height:10vh ;
-    background-color: #9260ef;
-    text-align: center;
-    padding: 2vh;
-
-
-}
-.footer-my{
-    margin: auto;
-}
- 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-.sticky + .content {
-    padding-top: 102px;
-  }
-    
-
-  }
-  @media only screen and (max-width: 768px){
-
-  }
-  /* ---------------------- media 900------------------------------------------------ */
-  @media only screen and (max-width: 900px){
-
-.nav-bar-link{
-     position: fixed;
-     width: 100%;
-     height: 10vh;
-  }
-  
-.link {
-      padding: 2vh;
-    }
-.my-home{
-    line-height: 4.5vh;
-    }
-.my-home p{
-    
-    font-weight:600;
-    font-size: 4vh;
-}
-
-.section-five{
-    background:linear-gradient(#d966ff  10%, 40%, #9999ff 80%);
-    height: 100vh;
-    margin-top: 20vh;
-    
-}
-
-}
-/* ----------------------     -media   -------------------------------------------------------------------- */
- 
-    
-@media only screen and (max-width: 1024px){
-   
-    
-      
-    .link {
-        float: left;
-        width: 20%;
-        background-color: #2456b8;
-        height:15vh ;
-        padding:1vh;
-    
-      }
-      
-    .link a { 
-        color: rgb(232, 50, 50);
-    
-    }
-  
-    .my-home{
-        width: 95vw;
-        height: 100vh;
-        margin: 2vh;
-        margin-left: 3vw;
-       }
-    .my-home h2{
-        font-weight:800;
-        font-size: 7vh;
-        margin-top: 1vh;
-        margin-left: 4vw;
-        font-variation-settings: "wght" 600;
-
-    }
-   
-    .my-home h4{
-        font-weight:600;
-        font-size: 5vh;
-        margin-top: 1vh;
-        
-    }
-    .my-home h3{
-        font-size: 5vh;
-        margin-top: 1vh;
-    }
-    .my-home p{
-        font-weight:500;
-        font-size: 3vh;
-        width:70vw ;
-        margin-left:12vw;
-
-    }
-    .grid{
-        display: grid;
-        grid-template-columns: auto;
-    }
-    .my-poto{
-        text-align: center;
-        margin-top: 5vh;    
-    }
-    .my-poto img{
-        width: 18vw;
-        height: 35vh;
-        border-radius: 50%;     
-    }
-    .section-two-grid{
-        padding: 2vh;
-        margin-left: 3vh;
-    
-    }
-    .section-two-grid .about-poto img{
-        --s: 1vh;  /* size of the frame */
-        --b: 1.5vh;   /* border thickness */
-        --w: 24vw; /* width of the image */
-        --c: #721ec1;
-        
-        width: var(--w);
-        aspect-ratio: 1;
-        object-fit: cover;
-        padding: calc(2*var(--s));
-        --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
-        background:
-          linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
-          linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
-        outline: calc(var(--w)/2) solid #0009;
-        outline-offset: calc(var(--w)/-2 - 2*var(--s));
-        transition: .4s;
-        cursor: pointer;
-    }
-    .section-two-grid .about-poto img:hover{
-    
-        outline: var(--b) solid var(--c);
-        outline-offset: calc(var(--s)/-2);
-         --_i: calc(100% - 2*var(--s));
-    }
-
-    .section-two-grid .about-text {
-        font-size: 3vh;
-        font: weight 300;
-        /* margin: 3vh; */
-        /* background-color: #547be7; */
-        color: #2c2c5f;
-        padding: 2vh;
-        
-    
-    }
-    .section-two-grid .about-text h3{
-        text-align:center;
-        font-family: Georgia, serif;
-        margin-top: 2vh;
-        
-       
-    }
-    
-    .section-three{
-        height: 110vh;
-    }
-    
-    .qualifications{
-        width: 90vw;
-        height: 110vh;
-        margin-left:5vw ;
-        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-    
-    }
-    .education-my ,.work-experience-my{
-        margin-top: 5vh;
-        /* background-color: #08ca49; */
-    
-    }
-
-
-
-    .section-three-eduAndWork-header::after{
-
-        padding-left: 60vw;
-        right: 1rem;
-    
-    }
-    .section-three-eduAndWork-body{
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-    }
-    .section-three-eduAndWork-body-content p, h4 {
-        width: 90vw;
-        margin-top:0vh;
-        font-size: 3vh;
-        
-     
-    }
-    .section-three-eduAndWork-body-content div {
-        margin-top:0vh;
-        line-height: 3.5vh;
-
-    }
-    
-    .section-four{
-        background:linear-gradient(#9999ff  20%, 40%, #d966ff 80%);
-        height: 120vh;
-    } 
-    .project{
-        display: grid;
-        grid-template-columns: auto auto ;
-        margin-left: 5vw;
-        margin-top: 3vh;
-    
-    }
-    .project-my{
-  
-        width: 30vw;
-        height: 35vh;
-        margin: 10vh;
-      padding-top:1vh ;
-        
-    }
-    .project-my h3{
-        text-align: center;
-        margin-bottom:0 ;
-        margin-top: 0;
-        padding: 0;
-    }
- 
-      label[for="project-my-toggle1"],label[for="project-my-toggle2"],label[for="project-my-toggle3"],label[for="project-my-toggle4"] {
-        margin: 0;
-        padding: 1vh;
-     
-      }
-      .project-poto {
-        height: 60%;/
-      }
-      
-      .project-poto img {
-        height: 90%; /* Set the height you prefer */
- 
-    }
-    
-    .section-five{
-        background:linear-gradient(#d966ff  10%, 40%, #9999ff 80%);
-        height: 100vh;
-        margin-top: 15vh;
-        
-    }
-    .section-five-con{
-        height: 100vh;
-   }
-
-    .contact-my-con{
- 
-         font-size: 4vh;
-
-    .logo{
-        text-align: center;
-    }  
-    .footer{
-        height:20vh ;
-        background-color: #9260ef;
-        text-align: center;
-        padding: 3vh;
-
-    }
-  }
-
-}
