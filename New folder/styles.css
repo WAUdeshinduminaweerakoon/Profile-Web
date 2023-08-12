@@ -30,6 +30,7 @@ h1{
 .nav-bar-link{
      position: fixed;
      width: 100%;
+     z-index: 1;
      /* height: 10vh; */
   }
   
@@ -38,6 +39,7 @@ h1{
     width: 20%;
     background-color: #6a2ae1;
     padding: 1vh;
+   
 }
   
 .link a {
@@ -209,7 +211,7 @@ h1{
 
 }
 .section-three .section-three-eduAndWork{
-    width: 90vw;
+    width: 80vw;
     max-width: 1000vw;
     margin: 2rem auto;
 }
@@ -221,14 +223,14 @@ h1{
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 
 }
-.section-three-eduAndWork-header{
+/* .section-three-eduAndWork-header{
     display: grid;
     grid-template-columns: 60% 40%;
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: bold;
-    display: flex;
+
     align-items: center;
     cursor: pointer;
 }
@@ -238,7 +240,42 @@ h1{
     padding-left: 50vw;
     right: 1rem;
 
+} */
+.section-three-eduAndWork-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position:relative; /* Add this to make ::after positioning relative to this element */
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    z-index: 0;
+    
 }
+
+.section-three-eduAndWork-header::after {
+    /* content: "\002B"; */
+    content: "\25BE";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    overflow: hidden;
+
+}
+.section-three-eduAndWork-header.active::after{
+    /* content:"\2212"; */
+    transform:rotate(-180deg);
+
+}
+
+
+
+
+
+
 .section-three-eduAndWork-body{
     max-height: 0;
     overflow: hidden;
