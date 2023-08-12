@@ -706,6 +706,9 @@ height: 60%;
 .contact-my-con{
   font-size: 3vh;
   }
+  .footer p{
+    font-size: 2vh;
+  }
         
  }         
  @media only screen and (max-width: 480px){
@@ -819,49 +822,36 @@ height: 60%;
                    
     }
     .contact-my-con{
-         grid-template-columns: 20% 80%;
+         grid-template-columns: 10% 80%;
          gap: 4vh;
          font-size: 2.5vh;
           margin-top: 10vh;
-        
-          
-     } 
     }
-@media only screen and (max-width: 320px){
+    .con-my{
+        margin-left: 2vh;
+    }
+   
+          
+     
+    }
+@media only screen and (max-width: 320px ){
         h1{
-          font-size: 6vh;
-          align-items: center;
-          margin-left: 6vw;
+          font-size: 5vh;
+        
         }
         .link{
-          font-size:1.5vh;
-          color: #000;
-          padding-right: 3%;
+          font-size:1.4vh;
+          padding-right: 5%;
         }
-        .my-home{
-          width: 92vw;
-          margin-left:6vw;
-        }
-        .my-home h2{
-          font-size: 3.5vh;
-          font-weight: 500;
-      
-        }
-        .my-home h4{
-          font-size: 3vh;
-      
-        }
-        .my-home h3{
-          font-size: 4vh;
-        }
+   
         .my-home p{
-          font-size: 2.5vh;
-          margin: 0.5vh;
+          font-size: 2vh;
+          margin: 0.1vh;
         }
         .section-two-grid .about-poto img{
           --s: 2vh;  /* size of the frame */
           --b: 1.5vh;   /* border thickness */
-          --w: 50vw; /* width of the image */
+          --w: 60vw; /* width of the image */
           --c: #721ec1;
           
           width: var(--w);
@@ -877,64 +867,24 @@ height: 60%;
           transition: .4s;
           cursor: pointer;
       }
-      .section-two-grid .about-text{
-          font-size: 2vh;
-          font-weight: 700;
-      }
-      .section-three-eduAndWork-header::after{
-          content: "\002B"; 
-          font-size: 2rem;
-          padding-left: 20vw;
-          right: 1rem;
-      }
-      .project{
-          display: grid;
-          grid-template-columns: auto;
-          /* margin-top: 10vh; */
-          margin-left: 5vw;
-          text-align: center;
-      }  
-      .project-my {
-          text-align: center;
-          margin-left: 30vw;
-          padding: 2vh;
-      }
-      
-       
-          .project-my h3{
-              font-size: 2vh;
-              padding: 1vh;
-              font-weight: 900;
-      
-              
-          }           
-           label[for="project-my-toggle1"],label[for="project-my-toggle2"],label[for="project-my-toggle3"],label[for="project-my-toggle4"] {
-          padding: 1vh;
-           border-radius: 1vh;
-           font-size: 2vh;
-           margin-bottom: -3vh;
-           margin-top: -2vh;
-          }
-          .project-poto {             
-           height: 80%; 
-           width: 30vw;
-           padding: -3vh;
-           margin-bottom: 10vh;
-           margin-right: 5vw;
-          }
+     
                         
           .project-poto img {
            height: auto;
-           width: 120%;
-            /* Set the height you prefer */
+           width: 150%;
+         
                          
           }
           .contact-my-con{
-               grid-template-columns: 20% 80%;
-               gap: 4vh;
-               font-size: 2.5vh;
-                margin-top: 10vh;
+               grid-template-columns: 10% 85%;
+               gap: 5vh;
+               font-size: 1.8vh;
+                margin-right:3vw;
               
                 
+           }
+           .con-my{
+            padding-left: 10vw;
            } 
+          
           } 
