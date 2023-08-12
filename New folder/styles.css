@@ -51,9 +51,7 @@ h1{
 
 }
   
-.link a:hover {
-/* background-color: #111; */
-}
+
 .section-one{
     background: linear-gradient(#90e490   10%, 40%,#9999ff 80%);
     /* height : 90vh; */
@@ -63,7 +61,7 @@ h1{
     width: 90vw;
     /* height: 70vh; */
     padding: 10vh;
-    margin-left: 3vh;
+    margin-left: 10vh;
     padding-top:1vh ;
     /* background:linear-gradient(rgb(233, 41, 24)  10%, 40%, rgb(3, 3, 73) 80%); */
     /* box-shadow: 1vh 1vw; */
@@ -183,8 +181,7 @@ h1{
     /* margin: 3vh; */
     /* background-color: #547be7; */
     color: #2c2c5f;
-    padding: 2vh;
-    
+    padding: 2vh;   
 }
 .section-two-grid .about-text h3{
     text-align:center;
@@ -206,7 +203,7 @@ h1{
 
 }
 .education-my ,.work-experience-my{
-    margin-top: 5vh;
+    padding: 1vh; 
     /* background-color: #08ca49; */
 
 }
